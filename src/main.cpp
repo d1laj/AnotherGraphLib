@@ -6,9 +6,14 @@ using namespace std;
 int main(){
   u8 value1 = 3;
   u8 value2 = 65;
-
+/*
   VertexDataView v1(value1);
   VertexDataView v2(value2);
+
+  //int a = 3;
+  for (int a = 0; a < value2; a++){
+    cout << "bli\n";
+  }
 
   cout << (int)v1.deg.val() << " " <<  bitset<8>(value1) << "\n";
   cout << (int)v2.deg.val() << " " <<  bitset<8>(value2) << "\n";
@@ -23,5 +28,6 @@ int main(){
   v2.str++;
   cout << (int)v1.str.val() << " " <<  bitset<8>(value1) << "\n";
   cout << (int)v2.str.val() << " " <<  bitset<8>(value2) << "\n";
+  */
   return 0;
 }
